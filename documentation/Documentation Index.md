@@ -1,7 +1,7 @@
 # VAPOR Documentation Index
 
 ## 📚 Main Documentation
-- [Read Me](../Read Me.md)
+- [README](../README.md)
 - [Installation Guide](Installation Guide.md)
 - [Project Summary](Project Summary.md)
 - [License](../License.md)
