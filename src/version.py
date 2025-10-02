@@ -4,13 +4,13 @@ Professional version management for multi-platform builds
 """
 
 # Version information
-__version__ = "4.0.0"
+__version__ = "4.1.0"
 __app_name__ = "VAPOR"
 __full_name__ = "Visual Artwork Processing & Organization Resource"
 __author__ = "Wesley Ellis"
 __email__ = "wes@wesellis.com"
 __description__ = "Professional Steam Grid Artwork Manager"
-__build_date__ = "2025-02-01"
+__build_date__ = "2025-10-02"
 
 # Performance and stability improvements in v4.0.0
 __changelog__ = [

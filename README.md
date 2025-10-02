@@ -171,7 +171,26 @@ This is a **production-ready tool** for managing Steam library artwork. All core
 - ✅ Cross-platform support
 - ✅ Multiple artwork types (grid, hero, logo, icon)
 
-**Version 4.0.0** represents a mature, stable release with years of development and real-world testing. The tool does exactly what it claims to do and is actively used by the community.
+**Version 4.1.0** represents a mature, stable, and secure release with years of development and real-world testing. The tool does exactly what it claims to do and is actively used by the community.
+
+### Recent Updates (v4.1.0 - October 2025)
+
+**Security:**
+- ✅ Fixed 18 vulnerabilities (2 critical, 7 high, 9 medium/low)
+- ✅ Updated Pillow, aiohttp, cryptography, and 13 other packages
+- ✅ Removed personal data from source code
+
+**Performance:**
+- ✅ Optimized connection pooling (fixed urllib3 warnings)
+- ✅ Increased pool size from 10 to 50 connections
+- ✅ Added retry logic for network requests
+
+**Cleanup:**
+- ✅ Removed 105MB of unused files and old releases
+- ✅ Streamlined project structure
+- ✅ Consolidated documentation
+
+See [SECURITY_UPDATE.md](SECURITY_UPDATE.md) for full details.
 
 ### Contributing
 
@@ -184,5 +203,5 @@ Contributions welcome! Optional enhancements:
 ---
 
 **Author:** Wesley Ellis
-**Version:** 4.0.0
+**Version:** 4.1.0
 

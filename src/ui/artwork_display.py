@@ -278,6 +278,14 @@ class ArtworkDisplayManager:
                 session = getattr(self.app, '_image_session', None)
                 if not session:
                     session = requests.Session()
+                    # Configure connection pool to prevent warnings
+                    adapter = requests.adapters.HTTPAdapter(
+                        pool_connections=20,
+                        pool_maxsize=50,
+                        max_retries=3
+                    )
+                    session.mount('https://', adapter)
+                    session.mount('http://', adapter)
                     session.headers.update({'User-Agent': 'VAPOR/2.0'})
                     self.app._image_session = session
                 
@@ -419,6 +427,14 @@ class ArtworkDisplayManager:
                 session = getattr(self.app, '_image_session', None)
                 if not session:
                     session = requests.Session()
+                    # Configure connection pool to prevent warnings
+                    adapter = requests.adapters.HTTPAdapter(
+                        pool_connections=20,
+                        pool_maxsize=50,
+                        max_retries=3
+                    )
+                    session.mount('https://', adapter)
+                    session.mount('http://', adapter)
                     session.headers.update({'User-Agent': 'VAPOR/2.0'})
                     self.app._image_session = session
                 
