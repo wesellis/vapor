@@ -111,6 +111,71 @@ MIT License - See [License.md](License.md) for details.
 
 ---
 
+## Project Status & Roadmap
+
+**Completion: ~85%**
+
+### What Works
+- ✅ Tkinter GUI interface (steam_grid_artwork_manager.py)
+- ✅ SteamGridDB API integration (steamgrid_lib.py + optimized version)
+- ✅ Steam Web API integration (steam_api.py)
+- ✅ Steam library reading and game detection
+- ✅ Database for caching (database.py)
+- ✅ Multiple artwork types (grid, hero, logo, icon)
+- ✅ Artwork browsing and selection
+- ✅ Auto-enhancement for bulk updates
+- ✅ CLI and GUI modes
+- ✅ Setup wizard
+- ✅ Cross-platform support (Windows, Linux, Steam Deck)
+- ✅ Steam library analysis (steam_library_analyzer.py)
+- ✅ Game caching for performance (steam_game_cache.py)
+
+### Known Limitations & Missing Features
+
+**Minor Issues:**
+- ⚠️ **Steam Path Detection**: May not work for non-standard Steam installations
+- ⚠️ **Rate Limiting**: Basic API limits but could be more sophisticated
+- ⚠️ **Offline Mode**: Requires internet connection for all operations
+
+**Potential Enhancements:**
+- ⚠️ **Backup/Restore**: No built-in backup of original artwork before replacement
+- ⚠️ **Artwork Preview**: Limited preview capabilities in GUI
+- ⚠️ **Batch Operations**: Could be more optimized for very large libraries (1000+ games)
+- ⚠️ **Custom Upload**: Cannot upload your own artwork to SteamGridDB
+- ⚠️ **Artwork Favorites**: No way to mark favorite artwork for reuse
+
+**Code Quality:**
+- ⚠️ **Testing**: No automated test suite
+- ⚠️ **Documentation**: Limited inline code comments
+- ⚠️ **Error Messages**: Could be more user-friendly
+
+### What Needs Work (Low Priority)
+
+1. **Testing Suite** - Add pytest tests
+2. **Backup System** - Auto-backup original artwork
+3. **Enhanced Preview** - Better artwork preview in GUI
+4. **Favorites System** - Save and reuse favorite artwork
+5. **Offline Cache** - Allow offline browsing of previously cached artwork
+6. **Performance Optimization** - Further optimize for massive libraries
+7. **Better Error Handling** - More informative error messages
+8. **Documentation** - More code comments and usage examples
+
+### Current Status
+
+This is a **well-developed and functional tool** for managing Steam library artwork. The core functionality works reliably, with good API integration, caching, and both GUI and CLI modes. Version 4.0.0 indicates active development and iteration.
+
+The tool does what it claims and is production-ready for most users. Missing features are mostly nice-to-haves rather than critical functionality.
+
+### Contributing
+
+If you'd like to add missing features, contributions are welcome. Priority areas:
+1. Adding automated tests
+2. Implementing backup/restore functionality
+3. Improving GUI artwork previews
+4. Optimizing performance for large libraries
+
+---
+
 **Author:** Wesley Ellis
 **Version:** 4.0.0
 
