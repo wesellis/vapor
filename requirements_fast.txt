@@ -1,0 +1,10 @@
+# VAPOR FAST - Minimal Requirements
+# Core dependencies only, no bloat
+
+# Async HTTP (the only network library we need)
+aiohttp>=3.8.0
+
+# Image optimization (optional but recommended)
+Pillow>=9.0.0
+
+# That's it! Just 2 dependencies for maximum speed

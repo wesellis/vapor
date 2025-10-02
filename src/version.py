@@ -3,25 +3,23 @@ VAPOR Version Information
 Professional version management for multi-platform builds
 """
 
-# Version information  
-__version__ = "2.0.1"
+# Version information
+__version__ = "4.0.0"
 __app_name__ = "VAPOR"
 __full_name__ = "Visual Artwork Processing & Organization Resource"
 __author__ = "Wesley Ellis"
 __email__ = "wes@wesellis.com"
 __description__ = "Professional Steam Grid Artwork Manager"
-__build_date__ = "2025-05-30"
+__build_date__ = "2025-02-01"
 
-# Performance and stability improvements in v2.0.1
+# Performance and stability improvements in v4.0.0
 __changelog__ = [
     "Enhanced retry mechanism with circuit breaker pattern",
-    "Intelligent caching system with LRU and compression", 
-    "50% faster repeat operations through smart caching",
-    "30% faster API calls with connection pooling",
-    "Auto-update notifications (non-blocking)",
+    "Intelligent caching system",
+    "Improved API call performance with connection pooling",
+    "Auto-update notifications",
     "Memory optimization with garbage collection",
-    "Graceful error recovery and network resilience",
-    "Performance telemetry and optimization insights"
+    "Graceful error recovery and network resilience"
 ]
 
 # Update check configuration - YOU MUST UPDATE THIS!

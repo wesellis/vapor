@@ -1,39 +1,102 @@
-﻿# Runtime data directories
-user_configs/
-game_cache/
-artwork_preview/
-logs/
-active_profile.txt
+# VAPOR .gitignore
+# Author: Wesley Ellis
 
-# Python cache
+# === Python ===
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
 .Python
-
-# Build artifacts
 build/
+develop-eggs/
 dist/
-*.spec
-*.exe
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Development files
-*_BACKUP.py
-test_*.py
-*_test.py
+# === Virtual Environments ===
+venv/
+ENV/
+env/
+.venv
 
-# OS files
-.DS_Store
-Thumbs.db
-desktop.ini
+# === Testing ===
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+*.cover
 
-# IDE files
+# === IDE ===
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
-# Personal files
-*profile_backup*
+# === OS Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+
+# === VAPOR Specific ===
+user_configs/
+game_cache/
+artwork_preview/
+artwork/
+turbo_artwork/
+logs/
+*.log
+active_profile.txt
+.vapor/
+results.json
+config/
+
+# === Build Artifacts ===
+builds/
+*.spec
+!vapor_*.spec  # Keep VAPOR spec files
+*.exe
+*.dmg
+*.AppImage
+
+# === Sensitive Files ===
+.env
+*.key
+api_keys.txt
+credentials.json
+
+# === Backup Files ===
+*_BACKUP.py
+*.bak
+*.backup
+*.old
+*.tmp
+
+# === Development ===
+test_*.py
+*_test.py
 distribution_info.json
+*profile_backup*
+
+# === Docker ===
+.dockerignore
+docker-compose.override.yml
+
+# === Keep Important Files ===
+!requirements.txt
+!README.md
+!LICENSE
+!vapor.py

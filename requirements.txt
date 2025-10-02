@@ -1,3 +1,50 @@
-requests>=2.28.0
-Pillow>=9.0.0
-psutil>=5.8.0
+# VAPOR - Visual Artwork Processing & Organization Resource
+# Production Requirements
+# Author: Wesley Ellis
+# Version: 4.0.0
+
+# === CORE DEPENDENCIES ===
+requests>=2.31.0
+Pillow>=10.2.0
+psutil>=5.9.8
+customtkinter>=5.2.2
+packaging>=24.0
+
+# === ASYNC & NETWORKING ===
+aiohttp>=3.9.3
+httpx>=0.27.0  # HTTP/2 support
+asyncio-throttle>=1.0.2
+aiofiles>=23.2.1
+
+# === PERFORMANCE ===
+numpy>=1.26.4
+cachetools>=5.3.2
+zstandard>=0.22.0  # Compression
+
+# === DATA HANDLING ===
+python-dotenv>=1.0.1
+pydantic>=2.6.0  # Data validation
+
+# === SECURITY ===
+keyring>=24.3.0
+cryptography>=41.0.7
+
+# === OPTIONAL ADVANCED FEATURES ===
+# Uncomment if needed:
+# opencv-python>=4.9.0  # GPU image processing
+# redis>=5.0.1  # Distributed caching
+# websockets>=12.0  # Real-time updates
+
+# === DEVELOPMENT TOOLS ===
+# For development only - not needed for production
+# pytest>=8.0.0
+# pytest-asyncio>=0.23.0
+# pytest-cov>=4.1.0
+# black>=24.2.0
+# flake8>=7.0.0
+# mypy>=1.8.0
+
+# === BUILD TOOLS ===
+pyinstaller>=6.3.0
+setuptools>=69.0.0
+wheel>=0.42.0
