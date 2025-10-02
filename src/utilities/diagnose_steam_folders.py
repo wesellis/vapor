@@ -34,12 +34,12 @@ def find_steam_grid_folders():
             else:
                 raise FileNotFoundError("No profiles found")
         
-        steam_id_64 = profile.get('steam_id', '76561197960531009')
-        steam_id_32 = profile.get('steam_id_32', '265281')
+        steam_id_64 = profile.get('steam_id', 'YOUR_STEAM_ID_64')
+        steam_id_32 = profile.get('steam_id_32', 'YOUR_STEAM_ID_32')
     except:
-        # Fallback values based on console output
-        steam_id_64 = "76561197960531009"
-        steam_id_32 = "265281"
+        # Fallback values - replace with your own Steam IDs
+        steam_id_64 = "YOUR_STEAM_ID_64"
+        steam_id_32 = "YOUR_STEAM_ID_32"
     
     print(f"Profile Steam ID (64-bit): {steam_id_64}")
     print(f"Profile Steam ID (32-bit): {steam_id_32}")
