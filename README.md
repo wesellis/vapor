@@ -2,10 +2,22 @@
 
 **V**isual **A**rtwork **P**rocessing & **O**rganization **R**esource
 
-A simple tool to help manage and update artwork for your Steam library using the SteamGridDB API.
+A tool to manage and update artwork for your Steam library using the SteamGridDB API.
 
-![Python 3.9+](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/wesellis/APP-VAPOR-Steam-Grid-Art-Changer-Visual-Artwork-Processing?style=flat-square)](https://github.com/wesellis/APP-VAPOR-Steam-Grid-Art-Changer-Visual-Artwork-Processing/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/wesellis/APP-VAPOR-Steam-Grid-Art-Changer-Visual-Artwork-Processing?style=flat-square)](https://github.com/wesellis/APP-VAPOR-Steam-Grid-Art-Changer-Visual-Artwork-Processing/commits)
+
+---
+
+## Screenshots
+
+![VAPOR Ready](screenshots/Vapor%20Ready.png)
+
+![Auto-Enhancing](screenshots/Auto-Enhancing.png)
+
+![Game Image Select](screenshots/Game%20Image%20Select.png)
 
 ---
 
