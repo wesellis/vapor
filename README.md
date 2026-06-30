@@ -6,8 +6,8 @@ A tool to manage and update artwork for your Steam library using the SteamGridDB
 
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/wesellis/APP-VAPOR-Steam-Grid-Art-Changer-Visual-Artwork-Processing?style=flat-square)](https://github.com/wesellis/APP-VAPOR-Steam-Grid-Art-Changer-Visual-Artwork-Processing/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/wesellis/APP-VAPOR-Steam-Grid-Art-Changer-Visual-Artwork-Processing?style=flat-square)](https://github.com/wesellis/APP-VAPOR-Steam-Grid-Art-Changer-Visual-Artwork-Processing/commits)
+[![Stars](https://img.shields.io/github/stars/wesellis/vapor?style=flat-square)](https://github.com/wesellis/vapor/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/wesellis/vapor?style=flat-square)](https://github.com/wesellis/vapor/commits)
 
 ---
 
