@@ -11,6 +11,9 @@ on:
         required: true
         default: 'v2.0.0'
 
+permissions:
+  contents: write
+
 jobs:
   build-windows:
     runs-on: windows-latest
